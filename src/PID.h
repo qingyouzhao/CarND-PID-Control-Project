@@ -31,6 +31,10 @@ class PID {
    */
   double TotalError();
 
+  double GetSteer() const;
+
+  double GetThrottle() const;
+
  private:
   /**
    * PID Errors
