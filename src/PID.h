@@ -29,7 +29,9 @@ class PID {
    * Calculate the total PID error.
    * @output The total PID error
    */
-  double TotalError();
+  double TotalError() const;
+
+  double ClampedError() const;
 
   double GetSteer() const;
 
